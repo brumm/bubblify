@@ -1,0 +1,32 @@
+body, html {
+	margin: 0;
+	padding: 0;
+}
+body {
+   font-family: Helvetica, sans-serif;
+}
+.bubbles {
+	list-style-type: none;
+}
+.bubbles > li {
+	margin: 20px;
+	padding: 20px 50px 17px;
+	color: rgba(0, 0, 0, 0.7);
+	font-size: 30px;
+	display: inline-block;
+	padding: 15px 15px 12px;
+	border: 1px solid #ED9718;
+	border-radius: 5px;
+   position: relative;
+   color: #fff;
+   text-shadow: 0 -1px 0px #DC7A0B;
+   text-align: center;
+   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25), 
+               0 1px 0px rgba(255, 255, 255, 0.3) inset, 
+               0 0 0 1px rgba(255, 255, 255, 0.2) inset;
+   background: -moz-linear-gradient(top, #EDC800, #ED9718);
+   background: -webkit-linear-gradient(top, #EDC800, #ED9718);
+}
+.bubbles > li:after {
+   content: "";
+}
